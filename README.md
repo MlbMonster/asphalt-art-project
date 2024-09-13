@@ -18,18 +18,18 @@ This project was created on Code.org's JavaLab platform using the built in Neigh
 
 ## Output:
 
-< Put sketch / Final image here >
+![alt text](image.png)
 
 ## Reflection
 
 1. Describe your project.
 
-   - Write your response here...
+My project creates a painting of a red popsicle.
 
 2. What are two things about your project that you are proud of?
 
-   - Write your response here...
+I am proud of making the background painting and creating the popsicle functions and code with minimal errors.
 
 3. Describe something you would improve or do differently if you had an opportunity to change something about your project.
 
-   - Write your response here...
+Some things I would do to improve my code is to make hte popsicle more detailed and have more colors.
