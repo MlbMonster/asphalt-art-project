@@ -2,6 +2,7 @@ import org.code.neighborhood.*;
 
 public class BalloonPainter extends BackgroundPainter {
 
+//Paints the image
   public void paintBalloon(String bodyColor, String accentColor) {
    getToStartBody();
    paintBody(bodyColor);
@@ -9,6 +10,7 @@ public class BalloonPainter extends BackgroundPainter {
     paintString();
    }
 
+//makes the painter get to the position to start painting
    public void getToStartBody() {
       move();
       move();
@@ -26,6 +28,7 @@ public class BalloonPainter extends BackgroundPainter {
       turnLeft();
   }
 
+//once the painter is in the right position, the painter will paint the image
    public void paintBody(String color) {
      paint("red");
      move();
@@ -612,6 +615,7 @@ public class BalloonPainter extends BackgroundPainter {
      
    }
 
+//gets the painter to the position to start painting the screen
    public void getToStartString() {
       turnToWest();
      move();
@@ -621,6 +625,7 @@ public class BalloonPainter extends BackgroundPainter {
      move();
      
  } 
+ //once the painter is in position, the painter will paint the image
   public void paintString() {
     paint("white");
     turnLeft();

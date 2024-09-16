@@ -2,6 +2,7 @@ import org.code.neighborhood.*;
 
 public class BackgroundPainter extends PainterPlus {
 
+//Paints background from top to bottom
    public void paintBackground(String color, int size) {
     while (canMove("south")) {
       paintLine(color, size);
@@ -29,7 +30,7 @@ public class BackgroundPainter extends PainterPlus {
     }
     paint(color);
   }
-
+//turns the painter to the west
   public void turnToWest() {
     if (isFacingEast()) {
       turnRight();
@@ -37,7 +38,7 @@ public class BackgroundPainter extends PainterPlus {
       turnRight();
     }
   }
-
+//turns the painter to the east
   public void turnToEast() {
     if (isFacingWest()) {
       turnLeft();
@@ -48,11 +49,13 @@ public class BackgroundPainter extends PainterPlus {
     }
   }
 
+//turns the painter around
   public void turnAround() {
     turnLeft();
     turnLeft();
   }
 
+//resets the painter's position to the top right corner
   public void resetPosition() {
     if (isFacingEast()) {
       turnLeft();
